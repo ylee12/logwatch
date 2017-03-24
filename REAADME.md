@@ -1,7 +1,7 @@
 # LogWatch
 
 ## Description
-  This Python script is used to notify users that an exception had been generated from the application. It searches through a constantly changed log file and find any words that matches words from the provided list (see usage below), and send an email. This application keeps track of its last read location in the file, so subsequent execution of this program will continue from its last read location and it will not resend email to users for exeptions which were already read in the file.  
+  This Python script is used to notify users that an exception had been generated from the application. It searches through a constantly changed log file and find any words that matches words from the provided list (see usage below), and send an email. This application keeps track of its last read location in the file, so subsequent execution of this application will continue from its last read location and so will not resend email to users for exeptions which were already read from the file.  
 
 ## Usage
 python logwatch.py [options] 
